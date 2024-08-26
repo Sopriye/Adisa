@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: hsl(0, 0%, 8%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: "inter",sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+}
+section{
+    background: hsl(0, 0%, 12%);
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 1rem;
+    gap: 1rem;
+}
+img{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 100%;
+}
